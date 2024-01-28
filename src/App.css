@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+font-family: 'Young Serif', serif;
+}
+h1{
+margin: 20px 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100%;
+    background-color: hsl(30, 54%, 90%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box{
+    padding: 1.5rem;
+    width: 50vw;
+    min-height: 100%;
+    border-radius: 1rem;
+    background-color: hsl(0, 0%, 100%);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header img{
+    width: 100%;
+    border-radius: 0.5rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.instruction ol li ,p{
+margin-left: 18px;
 }
-
-.App-link {
-  color: #61dafb;
+.nutrition td , th{
+    border-bottom: 1px solid #ddd;
+      border-collapse: collapse;
+      text-indent: 50px;
+      line-height: 2;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table{
+    width: 100%;
+}
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    height: 10vh;
+    margin: 30px 0;
+}
+section{
+    margin-bottom: 30px;
+}
+h2  {
+    color: brown;
+    margin-bottom: 20px;
+}
+h3{
+    color: purple;
+    margin-bottom: 20px;
+}
+.tbl{
+    color: brown;
+    font-weight: bold;
+}
+.ingredient{
+    margin-top: 20px;
 }
